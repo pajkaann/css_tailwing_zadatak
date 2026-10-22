@@ -12,49 +12,139 @@
     
     <header class="text-white sticky top-0 bg-gray-900 border-b border-black">
         <div class="max-w-5xl mx-auto px-4 py-6 flex items-center justify-between">
-            <a href="index.html" class="text-2xl font-bold text-white">KUB</a>
+            <a href="index.html" class="text-2xl font-bold text-white transition-all duration-300 ease-in-out hover:scale-110">KUB</a>
             <nav class="hidden md:flex gap-6">
-                <a href="index.html" class="hover:text-gray-300">Naslovnica</a>
-                <a href="rides.html" class="hover:text-gray-300">Vožnje</a>
-                <a href="enroll.html" class="hover:text-gray-300">Prijave</a>
+                <a href="index.html" class="transition-all duration-300 ease-in-out hover:scale-110">Naslovnica</a>
+                <a href="rides.html" class="transition-all duration-300 ease-in-out hover:scale-110">Vožnje</a>
+                <a href="enroll.html" class="transition-all duration-300 ease-in-out hover:scale-110">Prijave</a>
             </nav>
         </div>
     </header>
 
     <nav class="md:hidden bg-gray-900 border-b border-black">
         <div class="flex justify-around py-2 text-sm">
-            <a href="index.html" class="hover:text-gray-300">Naslovnica</a>
-            <a href="rides.html" class="hover:text-gray-300">Vožnje</a>
-            <a href="enroll.html" class="hover:text-gray-300">Prijave</a>
+            <a href="index.html" class="transition-all duration-300 ease-in-out hover:scale-110">Naslovnica</a>
+            <a href="rides.html" class="transition-all duration-300 ease-in-out hover:scale-110">Vožnje</a>
+            <a href="enroll.html" class="transition-all duration-300 ease-in-out hover:scale-110">Prijave</a>
         </div>
     </nav>
 
-    <section class="bg-blue-800 text-white"> <!--dodati sliku--> 
-        <div class="max-w-5xl mx-auto px-4 py-16 text-center">
-            <h1 class="text-3xl md:text-5xl font-bold mb-4">Križevačka udruga biciklista</h1>
+    <section class="bg-black/40 text-white bg-blur bg-[linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('images/kub_naslovna.jpg')] bg-cover bg-center">
+        <div class="bg-black/40"></div>
+        <div class="max-w-6xl mx-auto px-4 py-24 text-center">
+            <h1 class="text-3xl md:text-5xl font-bold mb-2">Križevačka udruga biciklista</h1>
             <p class="text-lg text-teal-50 mb-8 max-w-2xl mx-auto">
                 Organiziramo biciklijade, utrke i svakodnevne vožnje u Križevcima i šire.
             </p>
             <a href="enroll.html"
-                class="inline-block bg-gray-200 text-blue-900 font-semibold px-6 py-3 rounded-lg hover:bg-blue-100">
-                Postani član <!-- dodati animacije na gumbe -->
+                class="inline-block bg-white text-blue-900 font-semibold px-6 py-3 rounded-lg transition-all duration-300 ease-in-out hover:scale-110 hover:text-white hover:bg-blue-500">
+                Postani član
             </a>
         </div>
     </section>
 
     <section class="max-w-5xl mx-auto px-4 py-12">
-        <h2 class="text-2xl font-bold text-center">Utrke</h2>
+        <h2 class="text-2xl font-bold mb-8 text-center">Utrke</h2>
+         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <article class="bg-gray-900 border-gray-200 rounded-lg p-6 transition-all duration-300 ease-in-out hover:scale-110">
+                <h3 class="text-lg text-white font-semibold mb-2">Uspon na Kalnik</h3>
+                <p class="text-white mb-4">
+                    Biciklistička utrka od Križevaca do vrha Kalnika. Za sve bicikliste koji žele testirati svoje sposobnosti u usponu.
+                </p>
+                <p class="text-blue-600 font-bold">
+                    10 EUR prijava
+                </p>
+            </article>
+            
+            <article class="bg-gray-900 border-gray-200 rounded-lg p-6 transition-all duration-300 ease-in-out hover:scale-110">
+                <h3 class="text-lg text-white font-semibold mb-2">Granfondo Križevci</h3>
+                <p class="text-white mb-4">
+                    Biciklistička utrka na 107km kroz Križevce i okolna sela. Za iskusne bicikliste i sportiste.
+                </p>
+                <p class="text-blue-600 font-bold">
+                    20 EUR prijava
+                </p>
+            </article>
 
+            <article class="bg-gray-900 border-gray-200 rounded-lg p-6 transition-all duration-300 ease-in-out hover:scale-110">
+                <h3 class="text-lg text-white font-semibold mb-2">Mediofondo Križevci</h3>
+                <p class="text-white mb-4">
+                    Biciklistička utrka na 73km kroz Križevce i okolna sela. Za početnike i rekreativce.
+                </p>
+                <p class="text-blue-600 font-bold">
+                    15 EUR prijava
+                </p>
+            </article>
+
+            
+    </section>
+
+    <section class="max-w-5xl mx-auto px-4">
+        <h2 class="text-2xl font-bold mb-8 text-center">Biciklijade</h2>
+         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <article class="bg-gray-900 border-gray-200 rounded-lg p-6 transition-all duration-300 ease-in-out hover:scale-110">
+                <h3 class="text-lg text-white font-semibold mb-2">Robin biciklijada</h3>
+                <p class="text-white mb-4">
+                    Biciklistička vožnja na 30km kroz Križevce do imanja obitelji Lončar. Ručak i društvene igre na imanju. 
+                </p>
+                <p class="text-blue-600 font-bold">
+                    7 EUR prijava
+                </p>
+            </article>
+
+            <article class="bg-gray-900 border-gray-200 rounded-lg p-6 transition-all duration-300 ease-in-out hover:scale-110">
+                <h3 class="text-lg text-white font-semibold mb-2">Biciklijada - Stara godina </h3>
+                <p class="text-white mb-4">
+                    Tradicionalna biciklistička vožnja za Staru godinu u okolici Križevaca. 
+                </p>
+                <p class="text-blue-600 font-bold">
+                    Besplatno
+                </p>
+            </article>
+
+            <article class="bg-gray-900 border-gray-200 rounded-lg p-6 transition-all duration-300 ease-in-out hover:scale-110">
+                <h3 class="text-lg text-white font-semibold mb-2">Obiteljska biciklijada</h3>
+                <p class="text-white mb-4">
+                    Biciklistička vožnja od Križevaca do Čabraja i natrag. Ručak i druženje na Čabrajima. 
+                </p>
+                <p class="text-blue-600 font-bold">
+                    5 EUR prijava
+                </p>
+            </article>
     </section>
 
     <section class="max-w-5xl mx-auto px-4 py-12">
-        <h2 class="text-2xl font-bold text-center">Biciklijade</h2>
+        <h2 class="text-2xl font-bold mb-8 text-center">Svakodnevne vožnje</h2>
+         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <article class="bg-gray-900 border-gray-200 rounded-lg p-6 transition-all duration-300 ease-in-out hover:scale-110">
+                <h3 class="text-lg text-white font-semibold mb-2">Hip-hop</h3>
+                <p class="text-white mb-4">
+                    Energični plesni pokreti uz glazbu koju slušaš svaki dan. Za početnike od 12 godina.
+                </p>
+                <p class="text-blue-600 font-bold">
+                    35 EUR mjesecno
+                </p>
+            </article>
 
-    </section>
+            <article class="bg-gray-900 border-gray-200 rounded-lg p-6 transition-all duration-300 ease-in-out hover:scale-110">
+                <h3 class="text-lg text-white font-semibold mb-2">Suvremeni ples</h3>
+                <p class="text-white mb-4">
+                    Tehnika, improvizacija irad na koreografiji za nastup na kraju godine.
+                </p>
+                <p class="text-blue-600 font-bold">
+                    40 EUR mjesecno
+                </p>
+            </article>
 
-    <section class="max-w-5xl mx-auto px-4 py-12">
-        <h2 class="text-2xl font-bold text-center">Svakodnevne vožnje</h2>
-
+            <article class="bg-gray-900 border-gray-200 rounded-lg p-6 transition-all duration-300 ease-in-out hover:scale-110">
+                <h3 class="text-lg text-white font-semibold mb-2">Salsa</h3>
+                <p class="text-white mb-4">
+                    Osnovni koraci, okreti i vođenje u paru. Dođi s partnerom ili ćemo ti ga naći.
+                </p>
+                <p class="text-blue-600 font-bold">
+                    45 EUR mjesecno
+                </p>
+            </article>
     </section>
 
     <footer class="bg-gray-900 text-white">
